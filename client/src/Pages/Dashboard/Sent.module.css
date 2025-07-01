@@ -1,0 +1,38 @@
+
+.emailContainer {
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  max-width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.emailTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.emailTable th,
+.emailTable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.emailTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.emailTable tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.noEmail {
+  margin-top: 20px;
+  color: #888;
+  font-style: italic;
+}
